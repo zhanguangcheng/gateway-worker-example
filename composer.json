@@ -1,0 +1,19 @@
+{
+    "name": "zhanguangcheng/gateway-worker-example",
+    "description": "GatewayWorker使用示例",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "workerman/gateway-worker": "^3.1",
+        "workerman/http-client": "^2.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        },
+        "files": [
+            "components/functions.php"
+        ]
+    }
+}
